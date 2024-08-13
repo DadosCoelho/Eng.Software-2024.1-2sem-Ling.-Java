@@ -3,7 +3,7 @@ public class App {
         System.out.println("Hello, World, Boy!");
 
         String primeiroNome = "Reinaldo";
-        String segundoNome = "Coelho";
+        String segundoNome = " Fernandes Coelho";
         String nomeCompleto = primeiroNome + " " + segundoNome;
         System.out.println(nomeCompleto);
         System.out.println(nomeCompleto.toUpperCase()); //Deixar as letras maiusculas
