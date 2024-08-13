@@ -1,0 +1,1 @@
+<h1>Este repositório contém códigos desenvolvidos durante o 2º periodo do curso de Engenharia de Software 2024.1, com foco na linguagem Java. Aqui, você encontrará exemplos práticos, exercícios e projetos que abrangem os fundamentos da programação em Java, proporcionando uma base sólida para futuros estudos e desenvolvimentos.</h1>
