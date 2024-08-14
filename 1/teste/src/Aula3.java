@@ -1,4 +1,5 @@
-import java.util.Scanner;
+//import java.util.Scanner;
+
 public class Aula3 {
     public static void main(String[] args) throws Exception {
         /*Exercícios
@@ -40,11 +41,11 @@ public class Aula3 {
             Entrada: 6
             Saída: Par
         */
-        Scanner scanf = new Scanner(System.in);
-        System.out.print("Digite um número: ");
-        int numero3 = scanf.nextInt();
-        scanf.close();
-        //int numero3 = 6;
+        //Scanner scanf = new Scanner(System.in);
+        //System.out.print("Digite um número: ");
+        //int numero3 = scanf.nextInt();
+        //scanf.close();
+        int numero3 = 7;
         
         if (numero3 % 2 == 0) {
             System.out.println("Exercício 3- O numero " + numero3 + " é Par");
@@ -61,7 +62,7 @@ public class Aula3 {
         Saída: Primo
         */
 
-        int numero4 = 7;
+        int numero4 = 9;
 
         if (numero4 <= 1) {
             System.out.println("Não é primo");
