@@ -13,5 +13,7 @@ public class App {
         String myStr = "Hello %s! %,d kilobyte is %,d bytes.";
         String result = String.format(myStr, nomeCompleto, 1, 1024);
         System.out.println(result);
+        System.out.println("hello world");
     }
+    
 }
