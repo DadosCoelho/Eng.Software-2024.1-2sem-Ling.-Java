@@ -1,19 +1,38 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World, Boy!");
+        // Defina manualmente a matriz ampliada (exemplo)
+        double[][] matriz = {
+            {2, 1, 5, 10},
+            {0, 0, 0, 8},
+            {1, 0, 0, 12}
+        };
 
-        String primeiroNome = "Reinaldo";
-        String segundoNome = " Fernandes Coelho";
-        String nomeCompleto = primeiroNome + " " + segundoNome;
-        System.out.println(nomeCompleto);
-        System.out.println(nomeCompleto.toUpperCase()); //Deixar as letras maiusculas
-        System.out.println(nomeCompleto.toLowerCase()); //Deixar as letras minusculas
+        int numEquacoes = matriz.length;
+        int numVariaveis = matriz[0].length - 1;
 
+        boolean consistente = true;
+        int linhaInconsistente = -1; // Inicializa com um valor inválido
 
-        String myStr = "Hello %s! %,d kilobyte is %,d bytes.";
-        String result = String.format(myStr, nomeCompleto, 1, 1024);
-        System.out.println(result);
-        System.out.println("hello world");
+        for (int i = 0; i < numEquacoes; i++) {
+            boolean todosZeros = true;
+            for (int j = 0; j < numVariaveis; j++) {
+                if (matriz[i][j] != 0) {
+                    todosZeros = false;
+                    break;
+                }
+            }
+            if (todosZeros && matriz[i][numVariaveis] != 0) {
+                consistente = false;
+                linhaInconsistente = i;
+                break;
+            }
+        }
+
+        if (consistente) {
+            System.out.println("O sistema é consistente.");
+        } else {
+            System.out.println("O sistema é inconsistente. A linha " + (linhaInconsistente + 1) + " é inconsistente.");
+        }
     }
     
 }
