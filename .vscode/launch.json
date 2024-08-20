@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculoDesconto",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.CalculoDesconto",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "VerificaAnoBissexto",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.VerificaAnoBissexto",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "VerificacaoFaixaEtaria",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.VerificacaoFaixaEtaria",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "MaiorDeTresNumeros",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.MaiorDeTresNumeros",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "VerificacaoPalindromo",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.VerificacaoPalindromo",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.Fibonacci",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "VerificacaoPrimo",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.VerificacaoPrimo",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "VerificacaoParImpar",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.VerificacaoParImpar",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraFatorial",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.CalculadoraFatorial",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "MediaNotas",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Aula_3.MediaNotas",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "MediaNotas",
+            "request": "launch",
+            "mainClass": "MediaNotas",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
