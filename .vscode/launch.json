@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Livro",
+            "request": "launch",
+            "mainClass": "Exercicios.Aula_4.ex2_ClasseLivro.Livro",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Pessoa",
+            "request": "launch",
+            "mainClass": "Exercicios.Aula_4.ex1_ClassePessoa.Pessoa",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Exercicios.Aula_4.Main",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Aula_4",
+            "request": "launch",
+            "mainClass": "Exercicios.Aula_4.Aula_4",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
             "name": "CalculoDesconto",
             "request": "launch",
             "mainClass": "Exercicios.Exercicios_Aula_3.CalculoDesconto",
