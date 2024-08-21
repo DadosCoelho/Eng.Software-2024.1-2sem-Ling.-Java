@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class VerificarConsistenciaMatriz {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.print("Digite o número de equações (linhas): ");
-        int numEquacoes = scanner.nextInt();
+        int numEquacoes = scan.nextInt();
 
         System.out.print("Digite o número de variáveis (colunas): ");
-        int numVariaveis = scanner.nextInt();
+        int numVariaveis = scan.nextInt();
 
         // Criando a matriz ampliada
         double[][] matriz = new double[numEquacoes][numVariaveis + 1];
@@ -19,7 +19,7 @@ public class VerificarConsistenciaMatriz {
 
         for (int i = 0; i < numEquacoes; i++) {
             for (int j = 0; j <= numVariaveis; j++) {
-                matriz[i][j] = scanner.nextDouble();
+                matriz[i][j] = scan.nextDouble();
             }
         }
 
@@ -45,6 +45,6 @@ public class VerificarConsistenciaMatriz {
             System.out.println("O sistema é inconsistente.");
         }
 
-        scanner.close();
+        scan.close();
     }
 }
