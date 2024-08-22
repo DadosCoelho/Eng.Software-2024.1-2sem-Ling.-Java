@@ -1,4 +1,4 @@
-package Exercicios.Exercicios_Aula_3;
+package Exercicios.Aula_3;
 
 public class VerificacaoFaixaEtaria {
     public static void main(String[] args) {
