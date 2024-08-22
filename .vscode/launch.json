@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Exercicios.Aula_4.ex4_ClasseProduto.Main",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Exercicios.Aula_4.ex2_ClasseLivro.Main",
             "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
         },
