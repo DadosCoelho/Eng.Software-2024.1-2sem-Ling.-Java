@@ -18,8 +18,6 @@ public class Main {
         MeuLivro2.numeroDePaginas = 412;
 
         MeuLivro2.detalhesDoLivro();
-
-
     }
 
 }
