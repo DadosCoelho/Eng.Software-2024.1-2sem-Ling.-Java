@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TicTacToe",
+            "request": "launch",
+            "mainClass": "Exercicios.projetos_Alonza.TicTacToe",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "Projeto6Chatbot",
+            "request": "launch",
+            "mainClass": "Exercicios.projetos_Alonza.Projeto6Chatbot",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "LoginSystem",
+            "request": "launch",
+            "mainClass": "Exercicios.projetos_Alonza.LoginSystem",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "CelsiusToFahrenheit",
+            "request": "launch",
+            "mainClass": "Exercicios.projetos_Alonza.CelsiusToFahrenheit",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Exercicios.projetos_Alonza.Calculator",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Exercicios.Aula_4.ex2_ClasseLivro.Main",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "VerificarConsistenciaMatriz",
+            "request": "launch",
+            "mainClass": "Teste2.VerificarConsistenciaMatriz",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Exercicios.Aula_4.ex3_ClasseProduto.Main",
