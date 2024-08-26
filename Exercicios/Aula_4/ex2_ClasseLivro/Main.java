@@ -1,6 +1,7 @@
 package Exercicios.Aula_4.ex2_ClasseLivro;
 
 public class Main {
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
 
         Livro MeuLivro = new Livro();
