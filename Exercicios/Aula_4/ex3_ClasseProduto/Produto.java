@@ -4,7 +4,6 @@ public class Produto {
     static String nome;
     static float preco;
     static int quantidade;
-    static int quantidadeVendida;
     static int quantidadeAnterior;
 
     public static void exibirProduto() {
