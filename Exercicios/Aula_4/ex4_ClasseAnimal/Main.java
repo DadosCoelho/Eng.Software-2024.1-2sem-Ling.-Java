@@ -2,6 +2,7 @@ package Exercicios.Aula_4.ex4_ClasseAnimal;
 
 public class Main {
 
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Animal Animal = new Animal();
 
