@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Exercicios.projetos_Alonza.Calculator",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
             "name": "TicTacToe",
             "request": "launch",
             "mainClass": "Exercicios.projetos_Alonza.TicTacToe",
