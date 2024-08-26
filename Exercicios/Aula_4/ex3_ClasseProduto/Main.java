@@ -1,6 +1,7 @@
 package Exercicios.Aula_4.ex3_ClasseProduto;
 
 public class Main {
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
 
         Produto meuProduto = new Produto();
