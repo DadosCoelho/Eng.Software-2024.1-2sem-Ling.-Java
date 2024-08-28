@@ -15,9 +15,5 @@ public class Pessoa {
         System.out.println("Antes eu tinha " + idade + " anos de idade, mas agora tenho " + novaIdade + " anos.");
     }
 
-    public static void main(String[] args) {
-        exibirInformacoes();
-        aniversario();
-    }
 
 }
