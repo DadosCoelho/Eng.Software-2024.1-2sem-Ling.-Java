@@ -1,17 +1,28 @@
 package Exercicios.Aula_4.ex2_ClasseLivro;
 
 public class Livro {
-    static String titulo;
-    static String autor;
-    static int numeroDePaginas;
+    String titulo;
+    String autor;
+    int numeroDePaginas;
 
-    public static void detalhesDoLivro() {
+    public Livro(String titulo, int numeroDePaginas){
+        this.titulo = titulo;
+        this.numeroDePaginas = numeroDePaginas;
+        autor = "João";
+    }
+
+    public void detalhesDoLivro() {
+        System.out.println(" Detalhes do Livro");
         System.out.println(" Titulo  = " + titulo);
         System.out.println(" Autor   = " + autor);
         System.out.println(" Num Pag = " + numeroDePaginas + " páginas");
     }
 
-    public static void main(String[] args) {
-        detalhesDoLivro();
+    public boolean compararLivros(Livro outroLivro){
+        if(this.numeroDePaginas >= outroLivro.numeroDePaginas){
+            return true;
+        } else {
+            return false;
+        }
     }
 }
