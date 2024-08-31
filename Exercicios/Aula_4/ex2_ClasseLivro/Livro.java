@@ -5,6 +5,10 @@ public class Livro {
     String autor;
     int numeroDePaginas;
 
+    public int numero1;
+    private int numero2;
+    protected int numero3;
+
     public Livro(String titulo, int numeroDePaginas){
         this.titulo = titulo;
         this.numeroDePaginas = numeroDePaginas;
