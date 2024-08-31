@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Exercicios.Aula_6.ex1_Produto.Main",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Exercicios.Aula_4.ex1_ClassePessoa.Main",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
             "name": "Calculator",
             "request": "launch",
             "mainClass": "Exercicios.projetos_Alonza.Calculator",
