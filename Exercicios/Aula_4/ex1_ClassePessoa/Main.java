@@ -7,9 +7,16 @@ public class Main {
         Pessoa Pessoa2 = new Pessoa();
 
         Pessoa1.nome = "Reinaldo";
-        Pessoa1.idade = 26;
         Pessoa1.cidade = "Teresina-PI";
+        //Pessoa1.cpf = 999;
+        //Pessoa1.salario = 1000;
 
+
+        //Pessoa1.subirDeCargo();
+        Pessoa1.exibirInformacoes();
+        Pessoa1.subirDeCargo();
+        Pessoa1.exibirInformacoes();
+        Pessoa1.atualizarCpf(123);
         Pessoa1.exibirInformacoes();
     }
 
