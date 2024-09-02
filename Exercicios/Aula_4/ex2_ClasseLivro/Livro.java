@@ -6,7 +6,7 @@ public class Livro {
     int numeroDePaginas;
 
     public int numero1;
-    private int numero2;
+    //private int numero2;
     protected int numero3;
 
     public Livro(String titulo, int numeroDePaginas){
@@ -23,10 +23,14 @@ public class Livro {
     }
 
     public boolean compararLivros(Livro outroLivro){
+        return this.numeroDePaginas >= outroLivro.numeroDePaginas;
+
+        /*
         if(this.numeroDePaginas >= outroLivro.numeroDePaginas){
             return true;
         } else {
             return false;
         }
+        */
     }
 }
