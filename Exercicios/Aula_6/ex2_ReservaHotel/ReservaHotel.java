@@ -15,24 +15,56 @@ public class ReservaHotel {
         System.out.println(" ");
         System.out.println("Detalhe de reserva de Hotel");
         System.out.println("Cliente: "+cliente);
-        System.out.println("Numero do Quarto: "+numeroQuarto);
-        System.out.println("Status: "+status);
+        System.out.println("Numero do Quarto: "+getNumeroQuarto());
+        System.out.println("Status: "+getStatus());
         System.out.println(" ");
     }
 
     public void reservar(int numeroQuarto){
-        this.numeroQuarto = numeroQuarto;
-        status = true;
-        System.out.println(" ");
-        System.out.println("Quarto "+numeroQuarto+" reservado!");
-        System.out.println(" ");
+        
+        if(!getStatus()){
+            //this.numeroQuarto = numeroQuarto;
+            setNumeroQuarto(numeroQuarto);
+            //status = true;
+            setStatus(true);
+            System.out.println(" ");
+            System.out.println("Quarto "+numeroQuarto+" reservado!");
+            System.out.println(" ");
+        } else {
+            System.out.println(" ");
+            System.out.println("Quarto "+numeroQuarto+" não pode ser reservado!");
+            System.out.println(" ");
+        }
     }
 
-    public void cancelar(){
-        status = false;
+    public int getNumeroQuarto(){
+        return numeroQuarto;
+    }
 
-        System.out.println(" ");
-        System.out.println("Quarto "+numeroQuarto+" cancelado!");
-        System.out.println(" ");
+    public void setNumeroQuarto(int numeroQuarto){
+        this.numeroQuarto = numeroQuarto;
+    }
+
+    public boolean  getStatus(){
+        return status;
+    }
+
+    public void setStatus(boolean  status){
+        this.status = status;
+    }
+
+
+    public void cancelar(){
+
+        if(getStatus()){
+            setStatus(false);
+            System.out.println(" ");
+            System.out.println("Quarto "+getNumeroQuarto()+" cancelado!");
+            System.out.println(" ");
+        } else {
+            System.out.println(" ");
+            System.out.println("Quarto "+getNumeroQuarto()+" não pode ser cancelado!");
+            System.out.println(" ");
+        }
     }
 }
