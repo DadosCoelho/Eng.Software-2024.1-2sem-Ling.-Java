@@ -10,7 +10,9 @@ public class Main {
         item1.detalheEstoque();
         item1.removerEstoque(10);
         item1.detalheEstoque();
-
+        item1.removerEstoque(50);
+        item1.adicionarEstoque(50);
+        item1.detalheEstoque();
     }
     
 }
