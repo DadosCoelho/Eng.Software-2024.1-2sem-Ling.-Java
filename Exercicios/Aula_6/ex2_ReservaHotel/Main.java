@@ -13,5 +13,11 @@ public class Main {
         cliente1.cancelar();
         cliente1.detalheReserva();
 
+        cliente1.reservar(1);
+        cliente1.reservar(1);
+
+        cliente1.cancelar();
+        cliente1.cancelar();
+
     }
 }
