@@ -9,16 +9,33 @@ public class SistemaFuncionario {
         this.salario = salario;
     }
 
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public double getSalario(){
+        return salario;
+    }
+
+    public void setSalario(double salario){
+        this.salario = salario;
+    }
+
     public void aumentarSalario(double percentual){
-        double vlrAlmento = (salario * percentual)/100;
-        salario = salario + vlrAlmento;
-        System.out.println("Com o aumento de "+percentual+"%, que é "+vlrAlmento+" reais, o novo salario é "+salario);
+        double vlrAlmento = (getSalario() * percentual)/100;
+        //salario = salario + vlrAlmento;
+        setSalario(getSalario() + vlrAlmento);
+        System.out.println("Com o aumento de "+percentual+"%, que é "+vlrAlmento+" reais, o novo salario é "+getSalario());
     }
 
     public void exibirDados(){
         System.out.println("Informações do Funcionario");
-        System.out.println("Nome: "+nome);
-        System.out.println("Salario: "+salario);
+        System.out.println("Nome: "+getNome());
+        System.out.println("Salario: "+getSalario());
     }
     
 }
