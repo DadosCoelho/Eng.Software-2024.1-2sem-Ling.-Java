@@ -6,8 +6,9 @@ public class Main {
 
         celular.nome = "A03";
 
+        //System.out.println(celular.getNome());
         celular.informacaoProduto();
-        celular.aplicarDesconto(65.5);
+        celular.aplicarDesconto(20);
         celular.informacaoProduto();
 
 
