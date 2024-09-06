@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Exercicios.Aula_08.ex1_ControleFuncionario.Main",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Exercicios.Aula_6.ex5_GerenciamentoCursos.Main",
             "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
         },
