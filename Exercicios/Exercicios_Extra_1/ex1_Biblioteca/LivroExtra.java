@@ -5,22 +5,22 @@ public class LivroExtra {
     String autor;
     String isbn;
     private boolean disponivel;
-
+    
     public LivroExtra(String titulo, String autor, String isbn) {
         this.titulo = titulo;
         this.autor = autor;
         this.isbn = isbn;
         setDisponivel(true);
     }
-
+    
     public String getTitulo(){
         return titulo;
     }
-
-    public void setTitulo(String titulo){
+    
+    public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
+    
     public String getAutor(){
         return autor;
     }
@@ -41,7 +41,7 @@ public class LivroExtra {
         return disponivel;
     }
 
-    public void setDisponivel(boolean disponivel){
+    private void setDisponivel(boolean disponivel){
         this.disponivel = disponivel;
     }
 
@@ -73,4 +73,5 @@ public class LivroExtra {
                 ", disponivel='" + getDisponivel() + '\'' +
                 '}';
     }
+
 }
