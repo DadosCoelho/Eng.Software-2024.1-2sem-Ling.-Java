@@ -18,16 +18,28 @@ public class Livro {
         return autor;
     }
 
+    public void setAutor(String autor){
+        this.autor = autor;
+    }
+
     public String getIsbn(){
         return isbn;
+    }
+
+    public void setIsbn(String isbn){
+        this.isbn = isbn;
     }
 
     public boolean getDisponivel(){
         return disponivel;
     }
 
-    public void emprestar(){
+    public void setDisponivel(boolean disponivel){
+        this.disponivel = disponivel;
+    }
 
+    public void emprestar(){
+        setDisponivel(false);
     }
 
 
