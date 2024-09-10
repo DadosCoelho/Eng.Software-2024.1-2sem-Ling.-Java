@@ -1,4 +1,4 @@
-package Exercicios.Aula_08.ex1_ControleFuncionario;
+package Exercicios.Aula_8.ex1_ControleFuncionario;
 
 public class Main {
     public static void main(String[] args) {

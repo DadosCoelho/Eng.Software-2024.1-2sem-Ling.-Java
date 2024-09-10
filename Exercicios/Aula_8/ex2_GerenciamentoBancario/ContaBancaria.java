@@ -1,4 +1,4 @@
-package Exercicios.Aula_08.ex2_GerenciamentoBancario;
+package Exercicios.Aula_8.ex2_GerenciamentoBancario;
 
 public class ContaBancaria {
     String titular;
