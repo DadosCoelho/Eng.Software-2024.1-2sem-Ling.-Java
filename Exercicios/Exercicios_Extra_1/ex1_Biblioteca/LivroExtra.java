@@ -63,7 +63,6 @@ public class LivroExtra {
         }
     }
 
-
     @Override
     public String toString() {
         return "LivroExtra{" +
