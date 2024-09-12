@@ -40,6 +40,17 @@ class ProdutoE1 {
             System.out.println("Estoque insuficiente.");
         }
     }
+
+
+    @Override
+    public String toString() {
+        return "ProdutoE1{" +
+                "nome='" + nome + '\'' +
+                ", codigo='" + codigo + '\'' +
+                ", preco=" + preco +
+                ", quantidade=" + quantidade +
+                '}';
+    }
 }
 
 class LojaE1 {
