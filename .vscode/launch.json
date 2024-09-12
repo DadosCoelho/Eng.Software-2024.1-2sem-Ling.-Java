@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VerificarConsistenciaMatriz",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Extra_0.VerificarConsistenciaMatriz",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Exercicios.Exercicios_Extra_1.ex2_Loja.Main",
