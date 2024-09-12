@@ -9,6 +9,13 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Exercicios.Exercicios_Extra_1.ex2_Loja.Main",
+            "projectName": "Eng.Software-2024.1-2sem-Ling.-Java_52da2774"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Exercicios.Exercicios_Extra_1.ex2_Loja.Main",
             "projectName": "Eng.Software 2024.1 2sem Ling. Java_5fc916bc"
         },
         {
