@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         EmpresaE2 empresa = new EmpresaE2();
@@ -5,7 +7,10 @@ public class Main {
         FuncionarioHoristaE2 horista = new FuncionarioHoristaE2("João", "123456789", 0, 160, 50);
         FuncionarioMensalistaE2 mensalista = new FuncionarioMensalistaE2("Maria", "987654321", 0, 3000);
 
+        System.out.println("Folha de pagamento: " + empresa.calcularFolhaDePagamento());
         empresa.adicionarFuncionario(horista);
+        
+        System.out.println("Folha de pagamento: " + empresa.calcularFolhaDePagamento());
         empresa.adicionarFuncionario(mensalista);
 
         System.out.println("Folha de pagamento: " + empresa.calcularFolhaDePagamento());
